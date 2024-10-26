@@ -1,0 +1,165 @@
+.fram{
+    position: relative;
+    top: 120px;
+    left:-800px;
+
+}
+.frame2{
+    position:relative;
+    top: 135px;
+    left:-770px;
+}
+.framepass{
+    position: relative;
+    top: 150px;
+    left:-800px;
+}
+.dropdown{
+    position: relative;
+    top:165px;
+    left:-755px;
+}
+.Birthday{
+    position:relative;
+    top:180px;
+    left:-800px
+}
+.sent{
+    color: #0404fa;
+    position: relative;
+    top:289px;
+    left:100px;
+    font-size: small;
+}
+.butsign{
+    background-color: green;
+    position: relative;
+    top: 285px ;
+    left:100px;
+}
+.line{
+    position: relative;
+    top:300px ;
+    left:-160px;
+}
+
+
+
+.mail{
+    position: relative;
+   padding-bottom: 50px;
+}
+.form{
+    position: relative;
+    top: 40px;
+}
+.newtr{
+    padding-left: 40pxpx;
+}
+.headingu{
+    position: relative;
+    top:30px;
+    left:-220px;
+    font-size: 28px;
+}
+.heading{
+    font-size: 65px;
+}
+.right{
+    width:50%;
+    float:right;
+    height:100%;
+    position: relative;
+    left:170px;
+    top:15px
+  
+}
+
+.mainbody{
+  
+    height:550px;
+    width:100%;
+    background-color:lenear-gradient(#cdc8ee);
+}
+.para{ 
+    
+    padding-left: 50px;
+    
+   font-family:;
+    font-size: 50px;
+}
+.left{
+    padding-top:100px;
+    width:50%;
+    height:100%;
+    float:left;
+  
+
+
+}
+.head{
+    background-color:rgb(8, 102, 255);
+    height:100px;
+    width:100%;
+
+    
+}
+body{
+    margin: 0px;
+}
+.logo{
+    width: 50%;
+    padding-top:40px;
+}
+.logotext{
+    height:100px;
+    width:100%;
+    color:white ;
+    font-size:45px;
+     margin-left:165px;
+   font-family:Arial, Helvetica, sans-serif;
+    font:weight;
+    padding: top 100px;;
+   
+   
+}
+table {  padding: 1px; 
+    position: relative;
+    bottom:80px;
+    left:800px;
+       
+    
+     }
+.eop{
+    color: white;
+    font-size:11;
+
+ }
+
+ .pass{
+    color: #0404fa;
+    
+ }
+
+
+.button{
+    background: #4267b2;
+    color:white;
+    border solid :blue;
+}
+
+
+
+.login{}
+    
+
+
+ td{
+    th, td { padding: 15px; 
+ }
+ tbody{
+    width:50%;
+    height:50%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+ }
+ 
