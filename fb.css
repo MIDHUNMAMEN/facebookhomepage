@@ -1,3 +1,13 @@
+.mainbody{
+  
+    height:550px;
+    width:100%;
+    
+        background: linear-gradient(to bottom ,#f7f7f7,#8b9dc3);
+}
+.fbimage{
+   width:700px;
+}
 .fram{
     position: relative;
     top: 120px;
@@ -71,22 +81,19 @@
     height:100%;
     position: relative;
     left:170px;
-    top:15px
+    top:15px;
+
   
 }
 
-.mainbody{
-  
-    height:550px;
-    width:100%;
-    background-color:lenear-gradient(#cdc8ee);
-}
+
 .para{ 
     
-    padding-left: 50px;
+   
     
-   font-family:;
-    font-size: 50px;
+   font-family: Klavika ;
+    font-size: 30px;
+    color: #0404fa;
 }
 .left{
     padding-top:100px;
@@ -150,7 +157,7 @@ table {  padding: 1px;
 
 
 
-.login{}
+
     
 
 

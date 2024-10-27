@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="fb.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script>
+    $(document).ready(function(){
+        $("#firstn").blur(function(){
+           var text= $(this).val()
+           if(text.length<4){
+            $("#label").show()
+           }else{$("#label").hide()}
+        })
+     })
+     </script>
 </head>
 <body><div class="container">
  <div class="head">
@@ -31,14 +42,17 @@
     </div>
 </div>
     <div class="mainbody">
-        <div class="left"><labl class="para">facebook helps you connect and share with the people in your life</label></div>
+        <div class="left"><labl class="para">Facebook helps you connect and share with the people in your life</label>
+        <image  class="fbimage"src="Screenshot 2024-10-26 220958.png"></div>
        <div class="right">
         <label class="heading">Sign Up</label>
         <label class="headingu"> It's free and always will be</label>
          <table>
            
             <tr class="fram">
-                <td> Enter Fullname:<input type="text" placeholder="first name"></td>
+                <td > Enter Fullname:<input  type="text" placeholder="first name" id="firstn"> <label id="label" style="display:none" >you have to write more than 4 character</label>
+                </td>
+               
                 <td><input type="text" placeholder="last name"></td>
             </tr>
             <tr class="frame2" >
@@ -75,5 +89,7 @@
     </div>
 </div>
 </div>
+
+
 </body> 
 </html>
